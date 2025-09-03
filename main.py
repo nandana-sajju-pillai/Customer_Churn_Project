@@ -14,7 +14,7 @@ churn_predictor = joblib.load(model_path)
 # -----------------------------
 st.set_page_config(page_title="Customer Churn Predictor", layout="centered")
 st.title("Customer Churn Prediction")
-st.write("This app predicts whether a customer will churn or stay, based on their details.")
+st.write("This app predicts whether a customer will leave or cancel a service (churn) or stay, based on their details.")
 
 # -----------------------------
 # Input Form
